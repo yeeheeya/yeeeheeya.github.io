@@ -1,0 +1,99 @@
+<html> <!-- awal dari HTML -->
+<head>
+
+	<!-- bagian kepala dari halaman Home -->
+	<title>Log Book Teknisi Laboratorium Fakultas Ilmu Komputer UPN Veteran Jakarta</title>
+	<link rel="stylesheet" type="text/css" href="./utslayout1.css">
+	<link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+</head>
+<body>
+
+<header>
+	<div class="judulgan">
+		<br>
+		<a href="">Log Book Teknisi Laboratorium</a>
+		<br>
+		<a href="">Fakultas Ilmu Komputer UPN Veteran Jakarta</a>
+		<br><br>
+	</div>
+</header>
+
+<div class="topright">
+	<a href="./loginpage.html">
+	<img src="./imgs/logologout.png" alt="Logout" style="height:20px; width:20px;">
+	</a>
+</div>
+<fieldset>
+<br><br><br><br><br>
+<div class="">
+		
+				<label>Kategori Uraian Tugas:</label>
+				<select id="nametwo" name="jenispkm" form="formpkm">
+				<option value="PKM-P">PKM-P (Penelitian)</option>
+				<option value="PKM-P">PKM-K (Kewirausahaan)</option>
+				<option value="PKM-P">PKM-M (Pengabdian Kepada Masyarakat)</option>
+				<option value="PKM-P">PKM-T (Teknologi)</option>
+				<option value="PKM-P">PKM-KC (Karya Cipta)</option>
+				<option value="PKM-P">PKM-AI (Artikel Ilmiah)</option>
+				<option value="PKM-P">PKM-GT (Gagasan Tertulis)</option>
+		</select>
+
+
+<br><br>
+<label>Deskripsi Kegiatan:</label>
+<input type="text" name="desckegiatan" placeholder="Deskripsi Kegiatan" id="nametwo">
+
+<br><br>
+<label>Tanggal Mulai:</label>
+<input type="date" name="tglstart" placeholder="Tanggal Mulai" id="nametwo">
+
+<br><br>
+<label>Waktu Mulai:</label>
+<input type="time" name="timestart" placeholder="Waktu Mulai" id="nametwo">
+
+<br><br>
+<label>Tanggal Selesai:</label>
+<input type="date" name="tglend" placeholder="Tanggal Selesai" id="nametwo">
+
+<br><br>
+<label>Waktu Selesai:</label>
+<input type="time" name="timestart" placeholder="Waktu Selesai" id="nametwo">
+
+<br><br>
+				<label>Email Pemberi Tugas:</label>
+				<select id="nametwo" name="jenispkm" form="formpkm">
+				<option value="PKM-P">PKM-P (Penelitian)</option>
+				<option value="PKM-P">PKM-K (Kewirausahaan)</option>
+				<option value="PKM-P">PKM-M (Pengabdian Kepada Masyarakat)</option>
+				<option value="PKM-P">PKM-T (Teknologi)</option>
+				<option value="PKM-P">PKM-KC (Karya Cipta)</option>
+				<option value="PKM-P">PKM-AI (Artikel Ilmiah)</option>
+				<option value="PKM-P">PKM-GT (Gagasan Tertulis)</option>
+		</select></center><br>
+
+			<script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+			<div class="file-upload">
+  			<button class="file-upload-btn" type="button" onclick="$('.file-upload-input').trigger( 'click' )">Dokumen Pendukung</button>
+    		<input class="file-upload-input" type='file' onchange="readURL(this);" accept="*"></input>
+    		</div>
+  			</div>
+
+  			<div class="file-upload-content">
+   			<img class="file-upload-image" src="./pdflogo.webp" alt=" Unggahan Berhasil" />
+   			<span class="image-title">
+    		<div class="image-title-wrap">
+      		<button type="button" onclick="removeUpload()" class="remove-image">Hapus</span></button>
+    		</div>
+  			</div>
+			</div>
+			<center>
+			<button class="button button7" type="button" onclick="window.location.reload();">Tambah Kegiatan</button>
+			<br><br><br><br>
+			<button class="button button5" type="submit" id="" onclick="location.href='./beranda.html'">Submit</button>
+			</center>
+			<br><br><br><br>
+</div>
+</fieldset>
+</body>
+</html>

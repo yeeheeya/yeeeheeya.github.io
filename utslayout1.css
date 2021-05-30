@@ -1,0 +1,459 @@
+*	
+	{
+	padding: 0;
+	margin: 0; 
+	}
+
+body
+	{
+	width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+	color:black;
+	font-family: Helvetica;
+	}
+
+h1	
+	{
+	color: black;
+	text-align: center;
+	font-style: default;
+	padding: 6px; 
+	}
+
+h2
+	{
+	color: black;
+	text-align: center;
+	font-style: default;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	}
+
+label
+	{
+	position:relative;
+	float: left;
+	width: 11em;
+	margin-left: 28%;
+	margin-bottom:30px;
+	color: black;
+	font-size: 20px;
+	font-style: default;
+
+	}
+
+fieldset
+{
+	clear: left;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+}
+
+a 
+	{
+  	color: black;
+ 	text-decoration: none
+	}
+
+button
+	{
+	margin-bottom: 20px;
+	}
+
+#judulgan 
+	{
+  	width: 100%;
+	font-weight: 700;
+	float: left;
+	}
+
+.judulgan a 
+	{
+	text-align:center;
+	margin:auto;
+	font-size: 28px;
+  	color: white;
+  	font-family: 'Montserrat';
+  	font-weight: bold;
+  	text-decoration: none;
+  	letter-spacing: 2px;
+	}
+
+.letakabout 
+	{
+	height: 200px;
+    width: 700px;
+    font-family: Candara;
+    position: absolute;
+    top: 16%;
+    left: 35%;
+    margin-top: -100px;
+    margin-left: -200px;
+	}
+
+.cobaletakkiri
+{
+	
+}
+
+
+.buatcopiret 
+	{
+    width:80%;
+    margin:0 auto;
+    text-align:center;
+	}
+
+#ma
+	{
+	color: black;
+	font-size: 20px;
+	font-style: italic;
+	}
+
+#ch
+	{
+	color: black;
+	font-size: 20px;
+	font-style: italic;
+	}
+
+.reg
+	{
+	width: 80%; 
+	margin: auto; 
+	/*background-image: url(https://i.ibb.co/nLv0t45/modelillustlowlight.jpg); */
+    background-size: cover;
+	margin-top: 50px;
+	padding: 10px; 
+	}
+
+#buatoverlaygan
+	{
+  	position: fixed;
+  	right: 0;
+  	bottom: 0;
+  	min-width: 100%;
+  	min-height: 100%;
+	}
+
+.kontenoverlaygan 
+	{
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+	}
+
+
+.inibox {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+
+#sub
+	{
+	position:relative;
+	align-items: center;
+	width: 20%;
+	padding: 5px; 
+	border: 3px solid #9fabb6;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	font-style: default;
+	background-color: #227948;
+	border-radius: 3px; 
+	}
+
+.inibox p 
+	{
+  position: relative;
+  align-content: center; 
+  letter-spacing: 5px;
+  width: 20%;
+  border: 3px solid white;
+  padding: 10px;
+  padding-left: 16px;
+	}
+
+#reg
+	{
+	width: 100%; 
+	margin: auto; 
+	}
+
+#name
+	{
+	border-radius:14px;
+	border: 2px solid #9fabb6;
+	width: 350px; 
+	padding: 13px;
+	margin-top:-11px;
+	margin-bottom: 10px;
+	}
+
+#nametwo
+{
+	border-radius:14px;
+	border: 2px solid #9fabb6;
+	width: 400px;
+	padding: 13px;
+	margin-left:60px;
+	margin-top:-11px;
+	margin-bottom: 10px;
+	}
+.menu
+	{
+	position: fixed;float: right;right: 10%;
+	}
+
+.centerrr
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+
+.button {
+  background-color: #FF8C00;
+  width:240px;
+  height:70px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 2px 2px;
+}
+
+.button4 {border-radius: 12px;}
+.button5 
+	{
+		border-radius: 60%;
+		filter: drop-shadow(0px 4px 2px #a6a9b6);
+	}
+.button6 
+	{
+		border-radius: 16px;
+		filter: drop-shadow(0px 4px 2px #a6a9b6);
+	}
+
+.button7
+	{
+		width:150px;
+		height:30px;
+		font-size:17px;
+		border-radius: 4px;
+		filter: drop-shadow(0px 4px 2px #a6a9b6);
+	}
+
+#divideandconquer
+{
+	margin:60px;
+	margin-bottom:26px;
+	margin-top:26px;
+}
+
+hr.orange 
+	{
+  	border: 2px solid orange;
+  	}
+
+.topright
+{
+	position: absolute;
+  	top: 20px;
+  	right: 10px;
+  	font-size: 18px;
+}
+
+.file-upload {
+  width: 170px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.file-upload-btn {
+  width: 100%;
+  margin: 0;
+  color: #fff;
+  background: #ff8b3d;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #ff6600;
+  transition: all .2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.file-upload-btn:hover {
+  background: #ff6600;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.file-upload-btn:active {
+  border: 0;
+  transition: all .2s ease;
+}
+
+.file-upload-content {
+  display: none;
+  text-align: center;
+}
+
+.file-upload-input {
+  outline: none;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.image-upload-wrap {
+  margin-top: 20px;
+  border: 4px dashed #1FB264;
+  position: relative;
+}
+
+.image-dropping,
+.image-upload-wrap:hover {
+  background-color: #1FB264;
+  border: 4px dashed #ffffff;
+}
+
+.image-title-wrap {
+  padding: 0 15px 15px 15px;
+  color: #222;
+}
+
+.drag-text {
+  text-align: center;
+}
+
+.drag-text h3 {
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #15824B;
+  padding: 60px 0;
+}
+
+.file-upload-image {
+  max-height: 200px;
+  max-width: 200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.remove-image {
+  width: 200px;
+  margin: 0;
+  color: #fff;
+  background: #cd4535;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #b02818;
+  transition: all .2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.remove-image:hover {
+  background: #c13b2a;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.remove-image:active {
+  border: 0;
+  transition: all .2s ease;
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.wrap 
+	{
+			
+	background: linear-gradient(to top, transparent, rgba(0,0,0,0.5));
+	background-position: center;
+	background-size: cover;
+	min-height: 100vh;
+	overflow: auto;
+	background-blend-mode: overlay
+	}
+			
+		header
+		{
+		text-align:center;
+		position: relative;
+		width:100%;
+		left: 0%;
+		margin:auto;
+		padding: 20px 0px;
+		background: #ff8b3d; 
+		opacity: 1;
+		}
+
+		header .logo
+		{
+		font-size: 28px;
+		font-weight: 700;
+		color: black;
+		float: left;
+		}
+
+		header .menu
+		{
+		position:relative;
+		float: right;
+		margin-top: -25px;
+		}
+
+		header ul li
+		{
+		display: inline-block;
+		}
+
+		header ul li a
+		{
+		text-decoration: none;
+		font-size: 20px;
+		color: black;
+		margin: 0 25px;
+		font-weight: 300;
+		letter-spacing: 1px;
+		}
+
+	/*
+	Ujian Tengah Semester
+	Tahun Ajaran 2020/2021
+	Praktikum Pemrograman Web Kelas C
+	1810512057 Yehezkiel Frederik Ruru
+	*/
